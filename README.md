@@ -3,8 +3,8 @@
 A project to test game development in Go, using the Ebitengine lib.
 
 ## Requirements
-gcc         # Install by `apt install gcc`. Ebitengine also uses C.
-some libs   # Install by `sudo apt install libc6-dev libgl1-mesa-dev libxcursor-dev libxi-dev libxinerama-dev libxrandr-dev libxxf86vm-dev libasound2-dev pkg-config`
+**gcc**         # Install by `apt install gcc`. Ebitengine also uses C.  
+**some libs**   # Install by `sudo apt install libc6-dev libgl1-mesa-dev libxcursor-dev libxi-dev libxinerama-dev libxrandr-dev libxxf86vm-dev libasound2-dev pkg-config`
 
 Environment can be confirmed by the following command:
 `go run github.com/hajimehoshi/ebiten/v2/examples/rotate@latest`
